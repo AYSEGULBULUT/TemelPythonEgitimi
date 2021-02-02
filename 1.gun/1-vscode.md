@@ -34,12 +34,13 @@ Settings > Open Settings.json
 
 ```json
 "python.formatting.provider": "black",
-    "[python]": {
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
-    },
-    "python.linting.pylintEnabled": false,
+"[python]": {
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
+},
+"python.linting.pylintEnabled": false,
+"python.linting.flake8Enabled": true,
 ```
 
 </br>
@@ -48,19 +49,36 @@ Settings.json
 ```json
 {
     "workbench.startupEditor": "newUntitledFile",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.iconTheme": "vscode-icons",
     "workbench.colorTheme": "One Dark Pro",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.languageServer": "Pylance",
-
-    //Custom Ayarlar
     "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--skip-string-normalization",
+        "--line-length=120"
+    ],
     "[python]": {
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
         }
     },
+    "python.sortImports.args": [
+        "--trailing-comma",
+        "--force-grid-wrap",
+        "0",
+        "--use-parentheses",
+        "--line-width",
+        "120",
+        "--multi-line",
+        "3",
+        "--float-to-top"
+    ],
     "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120"
+    ],
 }
 ```
