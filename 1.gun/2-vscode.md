@@ -29,18 +29,52 @@ https://marketplace.visualstudio.com/VSCode
 
 </br>
 
-#### Diger Ayarlar
+#### Python icin VsCode Ayarlari
 Settings > Open Settings.json
 
 ```json
-"python.formatting.provider": "black",
-"[python]": {
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true
-    }
-},
-"python.linting.pylintEnabled": false,
-"python.linting.flake8Enabled": true,
+    "python.languageServer": "Pylance",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--skip-string-normalization",
+        "--line-length=120"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "python.sortImports.args": [
+        "--trailing-comma",
+        "--force-grid-wrap",
+        "0",
+        "--use-parentheses",
+        "--line-width",
+        "120",
+        "--multi-line",
+        "3",
+        "--float-to-top"
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120"
+    ],
+```
+
+</br>
+
+### Pipenv Permission Hatasi Cozumu
+```json
+"terminal.integrated.shellArgs.windows": ["-ExecutionPolicy", "Bypass"]
+```
+
+</br>
+
+### Auto Format On Save
+
+```json
+"editor.formatOnSave": true
 ```
 
 </br>
@@ -80,5 +114,18 @@ Settings.json
     "python.linting.flake8Args": [
         "--max-line-length=120"
     ],
+    "terminal.integrated.shellArgs.windows": ["-ExecutionPolicy", "Bypass"],
+    "editor.formatOnSave": true,
 }
+```
+
+Tum ayarlar tamamlandi.
+Python projesi acarak 'black' ve 'flake8' paketlerini kuruyoruz.
+VSCode > Terminal - black8 kurulumu.
+```shell
+pipenv install --dev --pre black
+```
+
+```shell
+pipenv install --dev flake8
 ```
