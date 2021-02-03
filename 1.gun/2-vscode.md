@@ -1,5 +1,5 @@
 # Kod Editör Kurulumu
-
+[Back](1-python.md)
 # Visual Studio Code
 
 Microsoft tarafından geliştirilen açık kaynaklı bir idedir.
@@ -129,3 +129,5 @@ pipenv install --dev --pre black
 ```shell
 pipenv install --dev flake8
 ```
+
+[Python -> Temeller](3-temeller.md)

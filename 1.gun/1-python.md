@@ -80,10 +80,16 @@ Linter [flake8] -> https://github.com/PyCQA/flake8
 Import Sort [isort] -> https://github.com/pycqa/isort
 * Import edilen kutuphaneleri uygun sekilde siralar.
 
-## Paket Yoneticisi : Pipenv Kurulumu
+### Paket Yoneticisi : Pipenv Kurulumu
 
 https://pipenv-fork.readthedocs.io/en/latest/
 
 ```shell
 pip3 install pipenv
 ```
+
+## Editor - Ide
+
+* PyCharm - (https://www.jetbrains.com/pycharm/)
+* [Visual Studio Code](2-vscode.md)
+* Atom - (https://atom.io/)
