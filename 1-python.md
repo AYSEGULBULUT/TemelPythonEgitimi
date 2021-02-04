@@ -61,6 +61,7 @@ https://www.python.org/downloads/
 * Kullanilacak Surum : Python 3.8
 
 **Add Python 3.8 to PATH secilmelidir!**
+
 ![Python Path](img/pythonpath.png)
 
 
