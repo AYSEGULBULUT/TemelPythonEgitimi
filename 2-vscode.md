@@ -1,5 +1,5 @@
 # Kod Editör Kurulumu
-[Back](1-python.md)
+[Geri](1-python.md)
 # Visual Studio Code
 
 Microsoft tarafından geliştirilen açık kaynaklı bir idedir.
