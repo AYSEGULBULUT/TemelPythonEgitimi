@@ -1,9 +1,20 @@
 # Python Temeller
 [Geri](2-vscode.md)
+
+## Math Functions
+```math
+f(x) = y
+f(x) = 2x + 1
+
+x: 'Yazi'
+print(x): ekrana 'Yazi' yazdir.
+```
+
 ## Print
 ```python
 # yorum
-print('Hello IZU')
+print('Merhaba IZU')
+print('Python', 'egitimi', 'basliyor.')
 ```
 
 ## Veri Tipleri
@@ -20,10 +31,34 @@ print('Hello IZU')
 |`x = {'elma', 'armut'}`| Set (Unique)
 
 ### Veri Tipleri Ile İşlemler 
-* Ozel fonksiyonlar
+#### Ozel fonksiyonlar
+
+![Standart Fonksiyonlar](img/buildin_functions.png)
+[Standart Fonksiyonlar](https://docs.python.org/3.8/library/functions.html)
+
+#### Çağırılmadan çalışmayan fonksiyonlar
+https://docs.python.org/3.8/library/
+
+* karekok alma
+```python
+from math import sqrt
+
+sayi = 100
+karekoku = sqrt(sayi)
+
+print(karekoku)
+```
+* tarih yazdirma
+```python
+from datetime import date
+bugun = date.today()
+print(bugun)
+```
+
 #### String Islemleri
 ```python
 # f(x) - g(f(x))
+# s = str('Nikita')
 ad = 'Nikita'
 soyad = 'TURKMEN'
 adsoyad = 'Nikita TURKMEN'
@@ -51,6 +86,8 @@ print(type(x))
 y = 10
 
 z = x + y
+z = z + 1
+
 
 print(z)
 ```
@@ -63,6 +100,9 @@ print(x)
 #### Boolean
 ```python
 x = True
+print(type(x))
+print(1 > 2)
+print(2 == 2)
 print(x)
 ```
 
@@ -102,3 +142,17 @@ print(d['key1'])
 d.keys()
 d.values()
 ```
+
+#### Setler
+```python
+s = set()
+s.add('elma')
+s.add('armut')
+s.add('armut')
+print(s)
+l = [1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,56,6,6,6,6,7,7,7,8,8,8,8]
+set(l)
+```
+
+[Dosya Islemleri](4-dosyaislemleri.md)
+
