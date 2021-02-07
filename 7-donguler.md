@@ -1,5 +1,5 @@
 # Donguler
-
+[Geri](6-kararyapilari.md)
 #### For Dongusu
 ```python
 liste = ['elma', 'armut', 'muz', 'ananas']
@@ -66,6 +66,9 @@ print(urun_list)
 
 for urun in urun_list:
     print(urun)
+
+for index,urun in enumerate(urun_list):
+    print(index, urun)
 ```
 
 * min / max
@@ -83,5 +86,21 @@ shuffle(num_list)
 print(num_list)
 
 from random import randint
-randint(0,100)
+rastgele_sayi = randint(0,100)
+print(rastgele_sayi)
 ```
+
+* Pythonic
+```python
+# 1. yontem
+mylist = list()
+for x in range(0, 100):
+    if x%2 == 0:
+        mylist.append(x**2)
+print(mylist)
+
+# Pythonic
+mylist = [x**2 for x in range(0,100) if x%2 == 0]
+```
+
+[Kullanici Etkilesimi](8-kullanici_etkilesimi.md)

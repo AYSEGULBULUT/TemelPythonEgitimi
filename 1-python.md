@@ -1,5 +1,14 @@
 # Python Kurulumu
 
+# github.com/niturk/TemelPythonEgitimi
+
+### Indirme Linkleri
+[Python 3.8.7](https://www.python.org/ftp/python/3.8.7/python-3.8.7-amd64.exe)
+
+[Visual Studio Code 1.53.0](https://code.visualstudio.com/sha/download?build=stable&os=win32-user)
+
+**!indir ama kurma okumaya devam et**
+
 ## Kisaca Python
 Python programlarının en büyük özelliklerinden birisi, C ve C++ gibi dillerin aksine, derlenmeye gerek olmadan çalıştırılabilmeleridir. Python’da derleme işlemi ortadan kaldırıldığı için, bu dille oldukça hızlı bir şekilde program geliştirilebilir.
 
@@ -15,8 +24,12 @@ Python programlarının en büyük özelliklerinden birisi, C ve C++ gibi diller
     - Veri Bilimi - Numpy/Pandas (https://numpy.org/)
     - Görüntü İşleme - OpenCV (https://opencv.org/)
     - Derin Ogrenme - Keras (https://keras.io/)
-* Awesome Python (https://github.com/vinta/awesome-python)
+* Awesome Python (https://awesome-python.com/)
+* Real Python (https://realpython.com/)
 * PyPi (https://pypi.org/)
+* Python Tips (https://book.pythontips.com/en/latest/index.html)
+* Full Stack Python (https://www.fullstackpython.com/)
+* Test Driven Development Course (https://testdriven.io/)
 * Turkce Kaynak (https://python-istihza.yazbel.com/)
 
 ![Github Ranking](img/github_ranking.png)

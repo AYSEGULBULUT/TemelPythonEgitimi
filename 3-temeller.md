@@ -8,6 +8,9 @@ f(x) = 2x + 1
 
 x: 'Yazi'
 print(x): ekrana 'Yazi' yazdir.
+
+# pythona ozel
+a, b = b, a
 ```
 
 ## Print
@@ -76,6 +79,7 @@ print(adsoyad[2:4])
 print(adsoyad[::2])
 print(f'Ad: {ad}, Soyad:{soyad}') # formatting
 ```
+Daha fazlasi icin -> https://pyformat.info/
 #### Integer
 ```python
 # f(x) - g(f(x))
