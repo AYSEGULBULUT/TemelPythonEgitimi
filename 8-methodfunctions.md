@@ -22,10 +22,12 @@ def f(x):
     return 2 * x + 1
 
 # parametresiz fonksiyon
+# return olan fonksiyonlar
 def f():
     return 5
 
 # print(yaz(x))
+# return olmayan fonksiyonlar
 def yaz(x):
     print(x)
 
@@ -35,6 +37,18 @@ f(2) # 2 * 2 + 1 = 5
 print('Ders bitmek uzere.')
 yaz('Ders bitmek uzere.')
 ```
+* deger donduden ve dondurmeyen fonksiyonlar
+```python
+def toplama_islemi_yap(sayi1, sayi2):
+    return sayi1 + sayi2
+
+def toplama_sonucu_yazdir(sayi1, sayi2):
+    print(sayi1 + sayi2)
+
+def topla_ve_ayni_zamanda_yazdir(sayi1, sayi2):
+    sonuc = sayi1 + sayi2
+    print(sonuc)
+    return sonuc
 
 ```python
 # moduller, kutuphaneler
@@ -56,3 +70,20 @@ print(yas)
 ```
 
 * varsayilan parametre
+```python
+def merhaba(isim='Varsayilan'):
+    print(f'Merhaba {isim}')
+
+merhaba('Nikita')
+```
+
+* ornekler
+```python
+def cift_sayi_mi(sayi):
+    return sayi % 2 == 0
+
+if cift_sayi_mi(5):
+    print('Cift')
+else:
+    print('Tek')
+```

@@ -1,23 +1,35 @@
 # Python Temeller
 [Geri](2-vscode.md)
 
-## Math Functions
-```math
+## Matematik > Fonksiyonlar
+```python
 f(x) = y
 f(x) = 2x + 1
 
-x: 'Yazi'
-print(x): ekrana 'Yazi' yazdir.
+x: 'Merhaba'
+f: 'Ekrana merhaba yazdiran fonksiyon.'
 
-# pythona ozel
-a, b = b, a
+print(x): ekrana 'Merhaba' yazdir.
+
+print(3)
+
+print(1 + 2)
+
+print(7 * 6)
+
+print( 2 * 2 + 5 )
+
+print( 2 * (2 + 5) )
+
 ```
 
-## Print
+## Print vs String Veri Tipi Ornekleri
 ```python
 # yorum
 print('Merhaba IZU')
-print('Python', 'egitimi', 'basliyor.')
+print('Python', "egitimi", 'basliyor.')
+print('Merhaba' + ' IZU')
+print('Merhaba "python" ogreniyoruz.')
 ```
 
 ## Veri Tipleri
@@ -33,12 +45,14 @@ print('Python', 'egitimi', 'basliyor.')
 |`x = {'adi': 'Nikita', ]'soyadi': 'Turkmen'}`| Dict
 |`x = {'elma', 'armut'}`| Set (Unique)
 
+![Memory Addressing](img/memory-addressing.jpg)
+
 ### Veri Tipleri Ile İşlemler 
 #### Ozel fonksiyonlar
 
 ![Standart Fonksiyonlar](img/buildin_functions.png)
 [Standart Fonksiyonlar](https://docs.python.org/3.8/library/functions.html)
-
+* degisken olarak tanimlanamazlar
 #### Çağırılmadan çalışmayan fonksiyonlar
 https://docs.python.org/3.8/library/
 
@@ -77,9 +91,17 @@ print(adsoyad[2:])
 print(adsoyad[:3])
 print(adsoyad[2:4])
 print(adsoyad[::2])
-print(f'Ad: {ad}, Soyad:{soyad}') # formatting
+print(f'Ad: {ad}, Soyad: {soyad}') # formatting
+print('Ad: {0}, Soyad: {1}'.format(ad,soyad)) # formatting
 ```
 Daha fazlasi icin -> https://pyformat.info/
+
+#### Komut Tabanli Uygulamalar icin Kullanicidan Veri Almak
+```python
+ad = input('Adiniz nedir ?')
+print(f'Merhaba {ad}')
+```
+
 #### Integer
 ```python
 # f(x) - g(f(x))
@@ -92,8 +114,35 @@ y = 10
 z = x + y
 z = z + 1
 
-
 print(z)
+
+a = 9
+b = 3
+
+print(a + b) # toplama
+print(a - b) # cikarma
+print(a * b) # carpma
+print(a / b) # bolme
+print(a % b) # mod alma a nin b den bolumunden kalan
+
+print(((a + b) / 2 - 4) * 12)
+
+
+yas = 28
+print(yas)
+print(type(yas))
+
+yas = '28'
+print(yas)
+print(type(yas))
+
+ad = 'Nikita'
+yas = 28
+print('Ad ' + ad + ' Yas ' + yas)
+
+print(ad * 5)
+
+
 ```
 
 #### Float

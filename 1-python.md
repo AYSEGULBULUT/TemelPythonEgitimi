@@ -10,9 +10,9 @@
 **!indir ama kurma okumaya devam et**
 
 ## Kisaca Python
-Python programlarının en büyük özelliklerinden birisi, C ve C++ gibi dillerin aksine, derlenmeye gerek olmadan çalıştırılabilmeleridir. Python’da derleme işlemi ortadan kaldırıldığı için, bu dille oldukça hızlı bir şekilde program geliştirilebilir.
-
-* Derlenmeden yorumlanarak çalışabilir.
+* Python nesneye dayali bir programlama dilidir. (Hersey bir nesnedir.)
+* Acik kaynaklidir.
+* Python programlarının en büyük özelliklerinden birisi, C ve C++ gibi dillerin aksine, derlenmeye gerek olmadan çalıştırılabilmeleridir.
 * Basit ve temiz söz dizimi bulunur kolay yazılır ve okunur.
 * Python 2 vs 3 (Python 2 bazi uygulamalar hala kullaniyor.)
 * Uyumlu heryerde calisir.
@@ -31,15 +31,17 @@ Python programlarının en büyük özelliklerinden birisi, C ve C++ gibi diller
 * Full Stack Python (https://www.fullstackpython.com/)
 * Test Driven Development Course (https://testdriven.io/)
 * Turkce Kaynak (https://python-istihza.yazbel.com/)
+* Dropbox, Instagram, Amazon, Pinterest, Netflix, Spotify, Facebook, Youtube, Udemy
 
 ![Github Ranking](img/github_ranking.png)
+Github Ranking
 ### C vs Python
+Python Kodu
 ```python
-# python
 print('Hello, World!')
 ```
+C Kodu
 ```c
-// c
 #include <stdio.h>
 int main()
 {
@@ -47,13 +49,19 @@ int main()
   return 0;
 }
 ```
-* **Daha iyi bir ornek**
+#### **Daha iyi bir ornek**
+
+Python Kodu
 ```python
 # python
 year = 2021
 print('Merhaba İZÜ!')
 print(f"{year} Yılındayız.")
 ```
+```python
+python program.py
+```
+C Kodu
 ```c
 // c
 #include <stdio.h>
@@ -65,7 +73,10 @@ int main() {
 	return 0;
 }
 ```
-
+```shell
+gcc c_programi.c -o programAdi
+./programAdi
+```
 
 ## Python 3.8 Kurulumu
 
@@ -87,12 +98,16 @@ https://www.python.org/downloads/
 
 Formatter [black] -> https://github.com/psf/black
 * Pep kurallarina gore kodu duzenler.
+![Pep8 Apartman](img/pep8-apartman.jpg)
+![Auto Pep8](img/auto-pep8.png)
 
 Linter [flake8] -> https://github.com/PyCQA/flake8
 * Kod hatalarini soyler.
+* Orn. kullanilmayan bir kutuphane cagirildiginda.
 
 Import Sort [isort] -> https://github.com/pycqa/isort
 * Import edilen kutuphaneleri uygun sekilde siralar.
+![isort](img/isort.png)
 
 ### Paket Yoneticisi : Pipenv Kurulumu
 
