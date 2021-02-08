@@ -4,3 +4,8 @@
 
 [PyIstanbul](https://www.meetup.com/tr-TR/python-istanbul/)
 
+
+### Oneriler
+* Ingilizce
+* Linux (https://ubuntu.com/)
+* Python

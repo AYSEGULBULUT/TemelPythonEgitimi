@@ -126,6 +126,15 @@ Import Sort [isort] -> https://github.com/pycqa/isort
 
 ![isort](img/isort.png)
 
+### Paket Kurulumu
+
+[PyPI Python Paketleri](https://pypi.org/)
+
+`pip` yazilimi kullanilarak yapilir.
+```python
+pip install paket_adi
+```
+
 ### Paket Yoneticisi : Pipenv Kurulumu
 
 https://pipenv-fork.readthedocs.io/en/latest/
