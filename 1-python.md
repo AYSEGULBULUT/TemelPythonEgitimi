@@ -7,7 +7,7 @@
 
 [Visual Studio Code 1.53.0](https://code.visualstudio.com/sha/download?build=stable&os=win32-user)
 
-**!indir ama kurma okumaya devam et**
+**! indir ama kurma okumaya devam et**
 
 ## Kisaca Python
 * Python nesneye dayali bir programlama dilidir. (Hersey bir nesnedir.)
