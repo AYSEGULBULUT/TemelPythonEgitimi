@@ -26,15 +26,6 @@ a,b = b,a
 
 ```
 
-## Print vs String Veri Tipi Ornekleri
-```python
-# yorum
-print('Merhaba IZU')
-print('Python', "egitimi", 'basliyor.')
-print('Merhaba' + ' IZU')
-print('Merhaba "python" ogreniyoruz.')
-```
-
 ## Veri Tipleri
 
 | Ornek | Veri Tipi
@@ -77,6 +68,15 @@ print(bugun)
 ```
 
 #### String Islemleri
+## Print vs String Veri Tipi Ornekleri
+```python
+# yorum
+print('Merhaba IZU')
+print('Python', "egitimi", 'basliyor.')
+print('Merhaba' + ' IZU')
+print('Merhaba "python" ogreniyoruz.')
+```
+
 ```python
 # f(x) - g(f(x))
 # s = str('Nikita')
