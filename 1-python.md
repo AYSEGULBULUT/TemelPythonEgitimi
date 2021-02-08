@@ -24,13 +24,13 @@ print("Merhaba Dunya")
 * Python 2 vs 3 (Python 2 bazi uygulamalar hala kullaniyor.)
 * Uyumlu heryerde calisir.
     - Elektronik - Micropython (https://micropython.org/)
-    - Web - Django (https://www.djangoproject.com/)
+    - Web - Django, Flask (https://www.djangoproject.com/)
     - Mobil - Kivy (https://kivy.org/#home)
     - Desktop GUI - PySide2 (https://wiki.qt.io/Qt_for_Python)
     - Devops - Ansible (https://www.ansible.com/)
     - Veri Bilimi - Numpy/Pandas (https://numpy.org/)
     - Görüntü İşleme - OpenCV (https://opencv.org/)
-    - Derin Ogrenme - Keras (https://keras.io/)
+    - Yapay Zeka ve Makina Ogrenmesi - Keras, SciPy, Pandas, TensorFlow (https://keras.io/)
 * Awesome Python (https://awesome-python.com/)
 * Real Python (https://realpython.com/)
 * PyPi (https://pypi.org/)
@@ -43,6 +43,7 @@ print("Merhaba Dunya")
 
 * `ctypes` (https://docs.python.org/3.8/library/ctypes.html#loading-shared-libraries)
 
+![Python You Can Fly](img/python-fly.jpeg)
 
 ![Github Ranking](img/github_ranking.png)
 Github Ranking
