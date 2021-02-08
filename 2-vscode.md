@@ -39,22 +39,6 @@ Settings > Open Settings.json
         "--skip-string-normalization",
         "--line-length=120"
     ],
-    "[python]": {
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
-    },
-    "python.sortImports.args": [
-        "--trailing-comma",
-        "--force-grid-wrap",
-        "0",
-        "--use-parentheses",
-        "--line-width",
-        "120",
-        "--multi-line",
-        "3",
-        "--float-to-top"
-    ],
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
@@ -92,22 +76,6 @@ Settings.json
     "python.formatting.blackArgs": [
         "--skip-string-normalization",
         "--line-length=120"
-    ],
-    "[python]": {
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
-    },
-    "python.sortImports.args": [
-        "--trailing-comma",
-        "--force-grid-wrap",
-        "0",
-        "--use-parentheses",
-        "--line-width",
-        "120",
-        "--multi-line",
-        "3",
-        "--float-to-top"
     ],
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,

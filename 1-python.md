@@ -121,11 +121,6 @@ Linter [flake8] -> https://github.com/PyCQA/flake8
 * Kod hatalarini soyler.
 * Orn. kullanilmayan bir kutuphane cagirildiginda.
 
-Import Sort [isort] -> https://github.com/pycqa/isort
-* Import edilen kutuphaneleri uygun sekilde siralar.
-
-![isort](img/isort.png)
-
 ### Paket Kurulumu
 
 [PyPI Python Paketleri](https://pypi.org/)
