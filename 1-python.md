@@ -109,7 +109,9 @@ https://www.python.org/downloads/
 
 Formatter [black] -> https://github.com/psf/black
 * Pep kurallarina gore kodu duzenler.
+
 ![Pep8 Apartman](img/pep8-apartman.jpg)
+
 ![Auto Pep8](img/auto-pep8.png)
 
 Linter [flake8] -> https://github.com/PyCQA/flake8
@@ -118,6 +120,7 @@ Linter [flake8] -> https://github.com/PyCQA/flake8
 
 Import Sort [isort] -> https://github.com/pycqa/isort
 * Import edilen kutuphaneleri uygun sekilde siralar.
+
 ![isort](img/isort.png)
 
 ### Paket Yoneticisi : Pipenv Kurulumu
