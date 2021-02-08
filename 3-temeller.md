@@ -51,6 +51,7 @@ print('Merhaba "python" ogreniyoruz.')
 #### Ozel fonksiyonlar
 
 ![Standart Fonksiyonlar](img/buildin_functions.png)
+
 [Standart Fonksiyonlar](https://docs.python.org/3.8/library/functions.html)
 * degisken olarak tanimlanamazlar
 #### Çağırılmadan çalışmayan fonksiyonlar
