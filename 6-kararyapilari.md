@@ -80,7 +80,6 @@ else:
     print(f'Merhaba {ad}, resit degilsin, kulube giris yapamazsin.')
 ```
 
-
 ```python
 sayi = 50
 print("1-100 arasinda bir sayi tahmin et: ")
