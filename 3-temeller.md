@@ -129,7 +129,9 @@ print(a + b) # toplama
 print(a - b) # cikarma
 print(a * b) # carpma
 print(a / b) # bolme
+print(a ** b) # us alma
 print(a % b) # mod alma a nin b den bolumunden kalan
+
 
 print(((a + b) / 2 - 4) * 12)
 
@@ -154,7 +156,16 @@ print(ad * 5)
 #### Float
 ```python
 x = 20.5
+print(type(x))
 print(x)
+
+a = 10
+b = 12.2
+c = a + b
+print(type(a))
+print(type(b))
+print(type(c))
+print(c)
 ```
 #### Boolean
 ```python
