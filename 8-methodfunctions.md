@@ -1,5 +1,5 @@
 # Metodlar ve Fonksiyonlar
-
+[Geri](7-donguler.md)
 ## Metodlar
 
 ```python

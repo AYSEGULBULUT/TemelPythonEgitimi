@@ -1,5 +1,5 @@
 # Karar Yapilari
-
+[Geri](5-karsilastirmaislemleri.md)
 #### If
 ```python
 if kosul
