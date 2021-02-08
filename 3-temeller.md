@@ -36,7 +36,7 @@ a,b = b,a
 |`x = True , x = False` | Boolean
 |`x = ['elma', 'armut']`| List (Mutable)
 |`x = ('elma', 'armut')`| Tuple (Immutable)
-|`x = {'adi': 'Nikita', ]'soyadi': 'Turkmen'}`| Dict
+|`x = {'adi': 'Nikita', 'soyadi': 'Turkmen'}`| Dict
 |`x = {'elma', 'armut'}`| Set (Unique)
 
 ![Memory Addressing](img/memory-addressing.jpg)
