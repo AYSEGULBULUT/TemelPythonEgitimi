@@ -1,7 +1,6 @@
 # Python Kurulumu
 
 # github.com/niturk/TemelPythonEgitimi
-
 ### Indirme Linkleri
 [Python 3.8.7](https://www.python.org/ftp/python/3.8.7/python-3.8.7-amd64.exe)
 
@@ -9,6 +8,9 @@
 
 **! indir ama kurma okumaya devam et**
 
+</br>
+
+![Python Logo](https://www.python.org/static/img/python-logo.png)
 ## Kisaca Python
 * Python nesneye dayali bir programlama dilidir. (Hersey bir nesnedir.)
 * Acik kaynaklidir.
