@@ -53,7 +53,7 @@ print('Merhaba "python" ogreniyoruz.')
 ![Standart Fonksiyonlar](img/buildin_functions.png)
 
 [Standart Fonksiyonlar](https://docs.python.org/3.8/library/functions.html)
-* degisken olarak tanimlanamazlar
+* degisken olarak tanimlanmamalidirlar.
 #### Çağırılmadan çalışmayan fonksiyonlar
 https://docs.python.org/3.8/library/
 
