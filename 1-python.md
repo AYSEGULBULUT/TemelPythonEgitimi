@@ -13,7 +13,7 @@
 ![Python Logo](https://www.python.org/static/img/python-logo.png)
 ## Kisaca Python
 * Python nesneye dayali bir programlama dilidir. (Hersey bir nesnedir.)
-* Acik kaynaklidir.
+* Acik kaynaklidir. (https://github.com/python)
 * Python programlarının en büyük özelliklerinden birisi, C ve C++ gibi dillerin aksine, derlenmeye gerek olmadan çalıştırılabilmeleridir.
 * Basit ve temiz söz dizimi bulunur kolay yazılır ve okunur.
 ```python
