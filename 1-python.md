@@ -16,6 +16,9 @@
 * Acik kaynaklidir.
 * Python programlarının en büyük özelliklerinden birisi, C ve C++ gibi dillerin aksine, derlenmeye gerek olmadan çalıştırılabilmeleridir.
 * Basit ve temiz söz dizimi bulunur kolay yazılır ve okunur.
+```python
+print("Merhaba Dunya")
+```
 * Python 2 vs 3 (Python 2 bazi uygulamalar hala kullaniyor.)
 * Uyumlu heryerde calisir.
     - Elektronik - Micropython (https://micropython.org/)
