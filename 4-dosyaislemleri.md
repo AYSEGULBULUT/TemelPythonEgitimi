@@ -1,5 +1,5 @@
 # Dosya Islemleri
-
+[Geri](3-temeller.md)
 ### Dosya Islem Modlari
 ```
 r  -> okuma
