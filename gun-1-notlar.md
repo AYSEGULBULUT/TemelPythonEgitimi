@@ -8,4 +8,4 @@
 ### Oneriler
 * Ingilizce
 * Linux (https://ubuntu.com/)
-* Python
+* Bitirme Projesi (Cok onemli.)
