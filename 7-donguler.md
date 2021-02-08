@@ -103,4 +103,4 @@ print(mylist)
 mylist = [x**2 for x in range(0,100) if x%2 == 0]
 ```
 
-[Kullanici Etkilesimi](8-kullanici_etkilesimi.md)
+[Metodlar ve Fonksiyonlar](8-methodfunctions.md)
