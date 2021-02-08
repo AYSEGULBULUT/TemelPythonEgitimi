@@ -34,10 +34,10 @@ a,b = b,a
 |`x = 20` | Integer
 |`x = 20.5` | Float
 |`x = True , x = False` | Boolean
-|`x = ['elma', 'armut']`| List (Mutable)
-|`x = ('elma', 'armut')`| Tuple (Immutable)
-|`x = {'adi': 'Nikita', 'soyadi': 'Turkmen'}`| Dict
-|`x = {'elma', 'armut'}`| Set (Unique)
+|`x = ['elma', 'armut', 5, 20.1]`| List (Mutable)`
+|`x = ('elma', 'armut', 10`| Tuple (Immutable)
+|`x = {'adi': 'Nikita', 'yas': 28}`| Dict
+|`x = {'elma', 'armut', 5, 6}`| Set (Unique)
 
 ![Memory Addressing](img/memory-addressing.jpg)
 
