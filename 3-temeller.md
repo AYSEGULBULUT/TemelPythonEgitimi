@@ -98,8 +98,9 @@ Daha fazlasi icin -> https://pyformat.info/
 
 #### Komut Tabanli Uygulamalar icin Kullanicidan Veri Almak
 ```python
-ad = input('Adiniz nedir ?')
-print(f'Merhaba {ad}')
+ad = input('Adiniz nedir ? ')
+yas = input(f'Yasin kac {ad} ')
+print(f'Merhaba {ad}, {yas} yasindasin.')
 ```
 
 #### Integer
