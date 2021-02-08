@@ -1,5 +1,5 @@
 # Karsilastirma Islemleri
-
+[Geri](4-dosyaislemleri.md)
 ```
 ==  esittir
 !=  esit degildir
