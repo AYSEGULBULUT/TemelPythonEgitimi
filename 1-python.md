@@ -39,6 +39,10 @@ print("Merhaba Dunya")
 * Test Driven Development Course (https://testdriven.io/)
 * Turkce Kaynak (https://python-istihza.yazbel.com/)
 * Dropbox, Instagram, Amazon, Pinterest, Netflix, Spotify, Facebook, Youtube, Udemy
+* Komplek sistemlerde birden fazla programlama dili kullanilabilir. Python ile C/C++ fonksiyonlarina binding islemi yapilabilir.
+
+* `ctypes` (https://docs.python.org/3.8/library/ctypes.html#loading-shared-libraries)
+
 
 ![Github Ranking](img/github_ranking.png)
 Github Ranking
