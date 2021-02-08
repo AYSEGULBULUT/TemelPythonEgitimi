@@ -21,6 +21,9 @@ print( 2 * 2 + 5 )
 
 print( 2 * (2 + 5) )
 
+# Pythona ozel
+a,b = b,a
+
 ```
 
 ## Print vs String Veri Tipi Ornekleri
@@ -78,8 +81,9 @@ print(bugun)
 # f(x) - g(f(x))
 # s = str('Nikita')
 ad = 'Nikita'
-soyad = 'TURKMEN'
+soyad = "TURKMEN"
 adsoyad = 'Nikita TURKMEN'
+egitim = '"Python Egitimi" cok guzel sizde gelsenize.'
 
 print(type(adsoyad)) # type
 
